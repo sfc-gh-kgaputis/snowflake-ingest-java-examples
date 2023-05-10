@@ -24,7 +24,7 @@ import net.snowflake.ingest.streaming.SnowflakeStreamingIngestClientFactory;
  * <p>Please read the README.md file for detailed steps
  */
 public class SnowflakeStreamingIngestExample {
-  // Please follow the example in profile_streaming.json.example to see the required properties, or
+  // Please follow the example in profile.json to see the required properties, or
   // if you have already set up profile.json with Snowpipe before, all you need is to add the "role"
   // property.
   private static String PROFILE_PATH = "profile.json";
