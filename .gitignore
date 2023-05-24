@@ -33,3 +33,6 @@ target/
 
 ### Snowflake connection profile
 profile.json
+
+### Logs
+logs/

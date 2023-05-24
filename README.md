@@ -46,6 +46,16 @@ create or replace table MY_TABLE(c1 number);
 ### Populate connection profile
 In the top-level of this project, you will need to create a connection profile with the filename`profile.json`.  Please refer to the example `profile.json.example` for a sample of this file.
 
+
+### Configure logging (optional)
+This example repo is configured to use logback-classic for logging, but any slf4j-compatible Java logging framework (e.g. log4j) could be used instead.
+
+By default, the root logger is set to `INFO` level logging,  but you can easily change the logging configuration in the file `src/main/java/resources/logback.xml`.
+
+**PLEASE NOTE:** If you make changes to the logging config file, you will need to recompile the Java code (see below) for the changes to take effect.
+
+More info on configuring logback: https://logback.qos.ch/manual/configuration.html#syntax 
+
 ### Compile example code
 
 ```
